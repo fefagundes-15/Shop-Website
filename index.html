@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header class="cabecalho">
+        <div class="container-logo">
+            <div class="logo-imagem">
+                <a href="index.html">
+                    <img src="https://source.unsplash.com/random/150x100" alt="">
+                </a>
+            </div>
+            <div class="logo-titulo">
+                <h1><a href="index.html">Shop Website</a></h1>
+            </div>
+        </div>
+
+        <nav class="container-menu-cabecalho">
+            <div class="menu-cabecalho">
+                <ul>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Serviços</a></li>
+                </ul>
+            </div>
+            <div class="menu-pesquisa">
+                <input type="text" class="pesquisa" placeholder="Pesquisar..." />
+                <a href="#" class="botao-menu-pesquisa">OK</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Menu lateral -->
+    <aside class="menu-lateral">
+        <h2>Menu Lateral</h2>
+        <ul>
+            <a href="#">
+                <li>Categoria 1</li>
+            </a>
+            <a href="#">
+                <li>Categoria 2</li>
+            </a>
+            <a href="#">
+                <li>Categoria 3</li>
+            </a>
+            <a href="#">
+                <li>Categoria 4</li>
+            </a>
+            <a href="#">
+                <li>Categoria 5</li>
+            </a>
+            <a href="#">
+                <li>Categoria 6</li>
+            </a>
+            </a>
+        </ul>
+        <!-- <div class="container-recomendacoes">
+            <div class="recomendacoes">
+                <h2>Recomendações</h2>
+                <img src="https://source.unsplash.com/random/100x100?sig=1" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+            </div>
+        </div> -->
+    </aside>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <div class="banner">
+            <img src="https://source.unsplash.com/random/566x320?sig=1" alt="">
+        </div>
+        <h2 class="titulos-categorias-porodutos">Destaques</h2>
+        <div class="container">
+            <div class="box-produto">
+                <h3>Produto 1</h3>
+                <img src="https://source.unsplash.com/random/200x200?sig=2" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus odio, delectus id nemo
+                    repellendus natus in iure. Lorem ipsum dolor sit amet.</p>
+                <div class="button">
+                    <a href="#">Comprar</a>
+                </div>
+            </div>
+            <div class="box-produto">
+                <h3>Produto 2</h3>
+                <img src="https://source.unsplash.com/random/200x200?sig=3" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus odio, delectus id nemo
+                    repellendus natus in iure. Laudantium, dolore similique? </p>
+                <div class="button">
+                    <a href="#">Comprar</a>
+                </div>
+            </div>
+            <div class="box-produto">
+                <h3>Produto 3</h3>
+                <img src="https://source.unsplash.com/random/200x200?sig=4" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. Quod velit ducimus voluptatum. </p>
+                <div class="button">
+                    <a href="#">Comprar</a>
+                </div>
+            </div>
+
+        </div>
+
+        <h2 class="titulos-categorias-porodutos">Novidades</h2>
+        <div class="container">
+            <div class="box-produto">
+                <h3>Produto 4</h3>
+                <img src="https://source.unsplash.com/random/200x200?sig=5" alt="">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores provident tempore alias! Lorem
+                    ipsum dolor sit amet. Lorem, ipsum dolor.</p>
+                <div class="button">
+                    <a href="#">Comprar</a>
+                </div>
+            </div>
+            <div class="box-produto">
+                <h3>Produto 5</h3>
+                <img src="https://source.unsplash.com/random/200x200?sig=6" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus odio, delectus id nemo
+                    repellendus natus in iure. </p>
+                <div class="button">
+                    <a href="#">Comprar</a>
+                </div>
+            </div>
+            <div class="box-produto">
+                <h3>Produto 6</h3>
+                <img src="https://source.unsplash.com/random/200x200?sig=7" alt="">
+                <p>Laudantium, dolore similique? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+                    sequi debitis in sint illum nisi.</p>
+                <div class="button">
+                    <a href="#">Comprar</a>
+                </div>
+            </div>
+            <div class="box-produto">
+                <h3>Produto 7</h3>
+                <img src="https://source.unsplash.com/random/200x200?sig=8" alt="">
+                <p>Laudantium, dolore similique? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+                    sequi debitis in sint illum nisi.</p>
+                <div class="button">
+                    <a href="#">Comprar</a>
+                </div>
+            </div>
+            <div class="box-produto">
+                <h3>Produto 8</h3>
+                <img src="https://source.unsplash.com/random/200x200?sig=9" alt="">
+                <p>Laudantium, dolore similique? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+                    sequi debitis in sint illum nisi.</p>
+                <div class="button">
+                    <a href="#">Comprar</a>
+                </div>
+            </div>
+            <div class="box-produto">
+                <h3>Produto 9</h3>
+                <img src="https://source.unsplash.com/random/200x200?sig=10" alt="">
+                <p>Laudantium, dolore similique? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+                    sequi debitis in sint illum nisi.</p>
+                <div class="button">
+                    <a href="#">Comprar</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <p>&copy; Felipe Francisco 2024 - Todos os direitos reservados</p>
+    </footer>
+</body>
+
+</html>

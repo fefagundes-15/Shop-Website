@@ -452,3 +452,121 @@ main {
 }
 
 /* #endregion */
+
+/* #region - MEDIUM (>768px <991px) */
+@media(min-width: 768px) and (max-width: 991px) {
+
+    /* #region Cabeçalho MEDIUM */
+    header {
+        padding: 4px;
+    }
+
+    .logo-imagem {
+        padding: 10px 10px 10px 5px;
+    }
+
+    .logo-titulo a {
+        font-size: 38px;
+        padding: 15px 8px 15px 0;
+    }
+
+    .menu-cabecalho li a {
+        font-size: 12px;
+        padding: 25px 8px;
+    }
+
+    .menu-pesquisa input[type=text] {
+        padding: 6px 2px 6px;
+        border-radius: 8px;
+        margin: 6px;
+        font-size: 10px;
+    }
+
+    .menu-pesquisa a {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    /* #endregion */
+
+    /* #region Aside MEDIUM */
+    .menu-lateral {
+        width: 20%;
+    }
+
+    .menu-lateral h2 {
+        padding: 0 0 10px;
+        font-size: 19px;
+    }
+
+    .menu-lateral li {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .menu-lateral h3 {
+        font-size: 15px;
+    }
+
+    .menu-lateral .box-recomendacoes h4 {
+        font-size: 16px;
+    }
+
+    .menu-lateral .box-recomendacoes p {
+        font-size: 12px;
+    }
+
+    .botao-menor a {
+        font-size: 14px;
+    }
+
+    .container-comprar-menor {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .preco-menor {
+        margin: 14px 0;
+        padding-bottom: 6px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    /* #endregion */
+
+    /* #region Main MEDIUM */
+    main {
+        width: 76%;
+        padding: 16px;
+        float: right;
+    }
+
+    .container .box-produto {
+        width: 45%;
+    }
+
+    .container .box-produto p {
+        font-size: 13px;
+    }
+
+    .container-comprar {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .container .preco {
+        margin-top: 33px;
+        font-size: 17px;
+    }
+
+    .container .botao a {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    /* #endregion */
+
+}
+
+/* #endregion */

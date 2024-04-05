@@ -1,0 +1,85 @@
+/* #region - EXTRA SMALL (<=576px) */
+@media(max-width: 575px) {
+
+    /* #region Cabeçalho EXTRA SMALL */
+    header {
+        width: 100%;
+        background-color: maroon;
+        display: block;
+        padding: 5px;
+        height: 230px;
+    }
+
+    .container-logo {
+        display: flex;
+        justify-content: left;
+    }
+
+    .logo-imagem {
+        margin-right: 6px;
+        padding: 8px;
+    }
+
+    .logo-imagem img {
+        height: 80px;
+    }
+
+    .logo-titulo a {
+        font-size: 40px;
+    }
+
+    .container-menu-cabecalho {
+        display: inline-block;
+    }
+
+    .menu-cabecalho li {
+        /* Deixar as opções do menu alinhadas horizontalmente */
+        display: inline-block;
+        margin: 20px 10px 20px 15px;
+    }
+
+    .menu-cabecalho li a {
+        font-size: 13px;
+        padding: 25px 8px;
+    }
+
+    /* #endregion */
+
+    /* #region Aside EXTRA SMALL */
+    .menu-lateral {
+        width: 91%;
+    }
+
+    .menu-lateral .container-recomendacoes {
+        display: none;
+    }
+
+    .menu-lateral h3 {
+        display: none;
+    }
+
+    /* #endregion */
+
+    /* #region Main EXTRA SMALL */
+    main {
+        width: 100%;
+        padding: 20px;
+        margin-top: 20px;
+        float: none;
+    }
+
+    /* Original: 566x320 */
+    .banner img {
+        height: 160px;
+        margin: 20px 0;
+    }
+
+    .container .box-produto {
+        width: 100%;
+    }
+
+    /* #endregion */
+
+}
+
+/* #endregion */

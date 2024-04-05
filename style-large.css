@@ -1,0 +1,116 @@
+/* #region - LARGE (>992px <1200px) */
+@media(min-width: 992px) and (max-width: 1200px) {
+
+    /* #region Cabeçalho LARGE */
+    header {
+        padding: 8px;
+    }
+
+    .logo-imagem {
+        margin-right: 5px;
+        padding: 8px;
+    }
+
+    .logo-titulo {
+        border-radius: 20px;
+    }
+
+    .logo-titulo a {
+        font-weight: 300;
+        font-size: 46px;
+        padding: 15px;
+    }
+
+    .menu-cabecalho li a {
+        font-size: 14px;
+        padding: 25px 15px;
+    }
+
+    .menu-pesquisa input[type=text] {
+        padding: 6px 5px 6px;
+        border-radius: 10px;
+        margin: 10px;
+        font-size: 12px;
+    }
+
+    .menu-pesquisa a {
+        font-size: 14px;
+        padding: 6px 8px;
+        border-radius: 8px;
+    }
+
+    /* #endregion */
+
+    /* #region Aside LARGE */
+    .menu-lateral {
+        width: 16%;
+    }
+
+    .menu-lateral h2 {
+        padding: 0 0 10px;
+        font-size: 19px;
+    }
+
+    .menu-lateral h3 {
+        font-size: 16px;
+        padding: 10px 10px 10px 0;
+    }
+
+    .menu-lateral li {
+        padding: 12px 12px 12px 8px;
+        font-size: 14px;
+        align-items: left;
+    }
+
+    .menu-lateral .box-recomendacoes h4 {
+        font-size: 16px;
+    }
+
+    .menu-lateral .box-recomendacoes p {
+        font-size: 12px;
+        padding: 10px 4px 0;
+        text-align: center;
+    }
+
+    .container-comprar-menor {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .preco-menor {
+        margin: 14px 0;
+        padding-bottom: 6px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    /* #endregion */
+
+    /* #region Main LARGE */
+    .container .box-produto {
+        width: 30%;
+    }
+
+    .container .box-produto p {
+        font-size: 13px;
+    }
+
+    .container-comprar {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .container .preco {
+        margin-top: 30px;
+        font-size: 19px;
+    }
+
+    .container .botao {
+        margin-top: 30px;
+    }
+
+    /* #endregion */
+}
+
+/* #endregion */

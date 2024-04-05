@@ -6,12 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop Website</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
-
     <!-- Favicon -->
-    <link rel="shortcut icon" href="media/icon.png" type="image/x-icon">
-    
+    <link rel="shortcut icon" href="../media/icon.png" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style-large.css">
+    <link rel="stylesheet" href="../css/style-medium.css">
+    <link rel="stylesheet" href="../css/style-small.css">
+    <link rel="stylesheet" href="../css/style-xx-small.css">
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -74,13 +78,61 @@
             </a>
             </a>
         </ul>
-        <!-- <div class="container-recomendacoes">
-            <div class="recomendacoes">
-                <h2>Recomendações</h2>
+        <h3>Recomendações</h3>
+        <div class="container-recomendacoes">
+            <div class="box-recomendacoes">
+                <h4>Produto 1</h4>
                 <img src="https://source.unsplash.com/random/100x100?sig=1" alt="">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                <div class="container-comprar-menor">
+                    <div class="botao-menor">
+                        <a href="#">Comprar</a>
+                    </div>
+                    <div class="preco-menor">
+                        $49.99
+                    </div>
+                </div>
             </div>
-        </div> -->
+            <div class="box-recomendacoes">
+                <h4>Produto 2</h4>
+                <img src="https://source.unsplash.com/random/100x100?sig=2" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                <div class="container-comprar-menor">
+                    <div class="botao-menor">
+                        <a href="#">Comprar</a>
+                    </div>
+                    <div class="preco-menor">
+                        $74.99
+                    </div>
+                </div>
+            </div>
+            <div class="box-recomendacoes">
+                <h4>Produto 3</h4>
+                <img src="https://source.unsplash.com/random/100x100?sig=3" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                <div class="container-comprar-menor">
+                    <div class="botao-menor">
+                        <a href="#">Comprar</a>
+                    </div>
+                    <div class="preco-menor">
+                        $12.99
+                    </div>
+                </div>
+            </div>
+            <div class="box-recomendacoes">
+                <h4>Produto 4</h4>
+                <img src="https://source.unsplash.com/random/100x100?sig=4" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                <div class="container-comprar-menor">
+                    <div class="botao-menor">
+                        <a href="#">Comprar</a>
+                    </div>
+                    <div class="preco-menor">
+                        $9.99
+                    </div>
+                </div>
+            </div>
+        </div>
     </aside>
 
     <!-- Conteúdo principal -->
@@ -94,27 +146,42 @@
                 <h3>Produto 1</h3>
                 <img src="https://source.unsplash.com/random/200x200?sig=2" alt="">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus odio, delectus id nemo
-                    repellendus natus in iure. Lorem ipsum dolor sit amet.</p>
-                <div class="button">
-                    <a href="#">Comprar</a>
+                    repellendus natus in iure.</p>
+                <div class="container-comprar">
+                    <div class="botao">
+                        <a href="#">Comprar</a>
+                    </div>
+                    <div class="preco">
+                        $9.99
+                    </div>
                 </div>
             </div>
             <div class="box-produto">
                 <h3>Produto 2</h3>
                 <img src="https://source.unsplash.com/random/200x200?sig=3" alt="">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus odio, delectus id nemo
-                    repellendus natus in iure. Laudantium, dolore similique? </p>
-                <div class="button">
-                    <a href="#">Comprar</a>
+                    repellendus natus in iure. </p>
+                <div class="container-comprar">
+                    <div class="botao">
+                        <a href="#">Comprar</a>
+                    </div>
+                    <div class="preco">
+                        $19.99
+                    </div>
                 </div>
             </div>
             <div class="box-produto">
                 <h3>Produto 3</h3>
                 <img src="https://source.unsplash.com/random/200x200?sig=4" alt="">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur
-                    adipisicing elit. Quod velit ducimus voluptatum. </p>
-                <div class="button">
-                    <a href="#">Comprar</a>
+                    adipisicing elit. </p>
+                <div class="container-comprar">
+                    <div class="botao">
+                        <a href="#">Comprar</a>
+                    </div>
+                    <div class="preco">
+                        $14.99
+                    </div>
                 </div>
             </div>
 
@@ -127,8 +194,13 @@
                 <img src="https://source.unsplash.com/random/200x200?sig=5" alt="">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores provident tempore alias! Lorem
                     ipsum dolor sit amet. Lorem, ipsum dolor.</p>
-                <div class="button">
-                    <a href="#">Comprar</a>
+                <div class="container-comprar">
+                    <div class="botao">
+                        <a href="#">Comprar</a>
+                    </div>
+                    <div class="preco">
+                        $37.99
+                    </div>
                 </div>
             </div>
             <div class="box-produto">
@@ -136,44 +208,69 @@
                 <img src="https://source.unsplash.com/random/200x200?sig=6" alt="">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus odio, delectus id nemo
                     repellendus natus in iure. </p>
-                <div class="button">
-                    <a href="#">Comprar</a>
+                <div class="container-comprar">
+                    <div class="botao">
+                        <a href="#">Comprar</a>
+                    </div>
+                    <div class="preco">
+                        $59.99
+                    </div>
                 </div>
             </div>
             <div class="box-produto">
                 <h3>Produto 6</h3>
                 <img src="https://source.unsplash.com/random/200x200?sig=7" alt="">
                 <p>Laudantium, dolore similique? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-                    sequi debitis in sint illum nisi.</p>
-                <div class="button">
-                    <a href="#">Comprar</a>
+                    sequi debitis in sint.</p>
+                <div class="container-comprar">
+                    <div class="botao">
+                        <a href="#">Comprar</a>
+                    </div>
+                    <div class="preco">
+                        $49.99
+                    </div>
                 </div>
             </div>
             <div class="box-produto">
                 <h3>Produto 7</h3>
                 <img src="https://source.unsplash.com/random/200x200?sig=8" alt="">
                 <p>Laudantium, dolore similique? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-                    sequi debitis in sint illum nisi.</p>
-                <div class="button">
-                    <a href="#">Comprar</a>
+                    sequi debitis in sint.</p>
+                <div class="container-comprar">
+                    <div class="botao">
+                        <a href="#">Comprar</a>
+                    </div>
+                    <div class="preco">
+                        $229.99
+                    </div>
                 </div>
             </div>
             <div class="box-produto">
                 <h3>Produto 8</h3>
                 <img src="https://source.unsplash.com/random/200x200?sig=9" alt="">
                 <p>Laudantium, dolore similique? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-                    sequi debitis in sint illum nisi.</p>
-                <div class="button">
-                    <a href="#">Comprar</a>
+                    sequi debitis in sint.</p>
+                <div class="container-comprar">
+                    <div class="botao">
+                        <a href="#">Comprar</a>
+                    </div>
+                    <div class="preco">
+                        $14.99
+                    </div>
                 </div>
             </div>
             <div class="box-produto">
                 <h3>Produto 9</h3>
                 <img src="https://source.unsplash.com/random/200x200?sig=10" alt="">
                 <p>Laudantium, dolore similique? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-                    sequi debitis in sint illum nisi.</p>
-                <div class="button">
-                    <a href="#">Comprar</a>
+                    sequi debitis in sint.</p>
+                <div class="container-comprar">
+                    <div class="botao">
+                        <a href="#">Comprar</a>
+                    </div>
+                    <div class="preco">
+                        $79.99
+                    </div>
                 </div>
             </div>
         </div>
